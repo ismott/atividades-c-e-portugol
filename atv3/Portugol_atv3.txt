@@ -1,0 +1,15 @@
+        inicio
+        {
+            escreval("ola para que ganhe o aumento precisamos saber seu o salrio!");
+            inteiro salario = leia();
+
+            se (salario < 500)
+            {
+                inteiro aumento = salario * 30 / 100;
+                escreval("Parabéns vc recebeu um aumento de 30% 😀. Seu salario agora é: " + aumento + "$");
+            }
+            se nao
+            {
+                escreval("com esse salario você não tem direito a aumento! 😞");
+            }
+        }

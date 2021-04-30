@@ -1,0 +1,28 @@
+        inicio
+        {
+            escreval("qual a sua idade nadador?");
+            inteiro idade_nadador = leia();
+
+            se (idade_nadador >= 5 && idade_nadador <= 7)
+            {
+                escreval("você pertence a sala infantil A");
+            }
+            se nao
+            {
+                se (idade_nadador >= 8 && idade_nadador <= 10)
+                {
+                    escreval("você pertence a sala infantil B");
+                }
+                se nao
+                {
+                    se (idade_nadador >= 14 && idade_nadador <= 17)
+                    {
+                        escreval("você pertence a sala juvenil A");
+                    }
+                    se nao
+                    {
+                        escreval("você pertence a sala juvenil B");
+                    }
+                }
+            }
+        }

@@ -1,0 +1,36 @@
+﻿using System;
+
+namespace desafio
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("qual a sua idade nadador?");
+            int idade_nadador = int.Parse(Console.ReadLine());
+
+            if (idade_nadador >= 5 && idade_nadador <= 7)
+            {
+                Console.WriteLine("você pertence a sala infantil A");
+            }
+            else
+            {
+                if (idade_nadador >= 8 && idade_nadador <= 10)
+                {
+                    Console.WriteLine("você pertence a sala infantil B");
+                }
+                else
+                {
+                    if (idade_nadador >= 14 && idade_nadador <= 17)
+                    {
+                        Console.WriteLine("você pertence a sala juvenil A");
+                    }
+                    else
+                    {
+                        Console.WriteLine("você pertence a sala juvenil B");
+                    }
+                }
+            }
+        }
+    }
+}

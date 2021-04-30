@@ -1,0 +1,19 @@
+    início
+        {
+            //--------------------------idade em ano mês, horas e minutos---------------------
+
+            escreva("Qual a sua idade meu jovem?");
+            inteiro idade = leia();
+
+            inteiro meses = idade * 12;
+            inteiro dias = idade * 365;
+            inteiro horas = idade * 8760;
+            inteiro minutos = idade * 525600;
+ 
+            escreval("sua idade em meses, dias, horas e minutos é:"); 
+            escreval("meses: " + meses);
+            escreval("dias: " + dias);
+            escreval("horas: " + horas);
+            escreval("minutos: " + minutos);   
+
+        }

@@ -1,0 +1,29 @@
+        inicio
+        {
+            escreval("eu sou um genio da lampada, e vou adivinhar sua idade. Coloque o ano em que naceu e o ano em que estamaos a seguir:\n");
+            
+            escreval("você naceu em que ano?");
+            inteiro AnoNacimento = leia();
+            escreval("em que ano estamos?");
+            inteiro AnoAtual = leia();
+            inteiro IdadePessoa = -AnoNacimento + AnoAtual;
+            se (IdadePessoa > 125)
+            {
+                escreval("Acho que vc já morreu!! sintu muito😭. mas você é um fantasma👻 ou um esqueleto💀?🤔");
+            }
+            se nao
+            {               
+            inteiro semana = IdadePessoa * 48;
+            escreval("sua idade é: " + IdadePessoa);
+            escreval("sua idade em semanas é: " + semana);
+            }
+            
+            se (IdadePessoa >= 100 && IdadePessoa <= 122 )
+            {
+                escreval("você é muito velho 👴, parabéns sua saude deve estar em otimas condições!!");
+            }
+            se (IdadePessoa > 122 && IdadePessoa <= 125)
+            {
+                escreval("caramba acho que vc bateu o recorde de pesso viva por mais tempo no mundo!!😄 ");
+            }
+        }
