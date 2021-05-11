@@ -12,7 +12,7 @@ namespace atv1
                 for (var i = 0; i <= 10; i++)
                 {
                        
-                        Console.WriteLine($"{i}*{i}: {i * (1 + cont)} ");
+                        Console.WriteLine($"{cont}*{i}: {i * (1 + cont)} ");
                     // if (cont >= 1)
                     // {
                     // }

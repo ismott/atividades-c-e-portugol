@@ -16,11 +16,11 @@ namespace atv2
                 numeros[i] = (Console.ReadLine());
             }
            
-            Array.Reverse(numeros);
-                foreach (var item in numeros)
-                {
-                   Console.WriteLine(item); 
-                }
+            // Array.Reverse(numeros);
+            //     foreach (var item in numeros)
+            //     {
+            //        Console.WriteLine(item); 
+            //     }
                 
             // int c = 3;
             // foreach (var item in numeros)
@@ -30,10 +30,10 @@ namespace atv2
             // }
             
 
-            // for (var i = 5; i > 0; i--)
-            // {
-            //     Console.WriteLine(i);
-            // }
+            for (var i = (numeros.Length -1); i >= 0; i--)
+            {
+                Console.WriteLine($"\n{numeros[i]}");
+            }
         }
     }
 }

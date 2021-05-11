@@ -17,24 +17,24 @@ namespace atv2
                 case "A":
                     if (quant_litros <= 20)
                     {
-                        double desconto = ((4.90 * quant_litros) * 3 / 100 );
+                        double desconto = (quant_litros * (4.90  - (4.90 * 3 / 100)) );
                         Console.WriteLine($"você ganhou um disconto de 3%, o preço a pagar é {desconto}");
                     }
                     else
                     {
-                        double desconto = ((4.90 * quant_litros) * 5 / 100 );
+                        double desconto = ((4.90 * quant_litros) * 0.95 );
                         Console.WriteLine($"você ganhou um disconto de 5%, o preço a pagar é {desconto}");
                     }
                     break;
                 case "G":
                     if (quant_litros <= 20)
                     {
-                        double desconto = ((5.30 * quant_litros) * 4 / 100 );
+                        double desconto = ((5.30 * quant_litros) * 0.96 );
                         Console.WriteLine($"você ganhou um disconto de 4%, o preço a pagar é {desconto}");
                     }
                     else
                     {
-                        double desconto = ((5.30 * quant_litros) * 6 / 100 );
+                        double desconto = ((5.30 * quant_litros) * 0.94 );
                         Console.WriteLine($"você ganhou um disconto de 6%, o preço a pagar é {desconto}");
                     }
                     break;
